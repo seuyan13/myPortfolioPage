@@ -1,0 +1,131 @@
+.contactSection {
+  background-image: url(/public/img/ContactImg.jpg);
+  margin-top: 4rem;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.contactTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.contactBox {
+  width: 80%;
+  padding: 3rem 1.25rem;
+  left: 10%;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.column {
+  flex: 1;
+}
+
+.iconCircle {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: 0 auto;
+  background: #cee2f2;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  line-height: 2rem;
+  color: #0078ff;
+  margin: 1rem 2rem 1rem 2rem;
+  font-size: 1.5em;
+}
+
+.iconLinker {
+  width: 4rem;
+  height: 4rem;
+  box-shadow: inset 0 0 0 0 #fff;
+  border-radius: 20%;
+  text-align: center;
+  color: #3d69cf;
+  font-size: 2.5rem;
+  margin-right: 3rem;
+  display: block;
+}
+
+.linkerList {
+  display: inline-block;
+  float: right;
+}
+
+.linkEmail {
+  text-decoration: none;
+  color: rgb(45, 43, 43);
+}
+
+.linkEmail:hover {
+  text-decoration: underline;
+}
+
+.cvContainer {
+  background-color: #0276ff;
+  text-align: center;
+  padding: 0.5rem;
+  width: 10rem;
+  height: 2.5rem;
+  float: right;
+  margin-top: 7rem;
+  margin-right: 3rem;
+  transition: all 0.5s;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+}
+
+.cvContainer:after {
+  content: "»";
+  opacity: 0;
+  float: right;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.cvContainer:hover {
+  padding-right: 1.5rem;
+}
+
+.cvContainer:hover:after {
+  opacity: 1;
+  right: 1rem;
+}
+
+.cv {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px) {
+  .column {
+    flex: none;
+    text-align: center;
+  }
+
+  .column .iconList {
+    display: inline-block;
+    text-align: left;
+  }
+
+  .cvContainer {
+    float: none;
+    margin: 0;
+    display: inline-block;
+    width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .iconList li {
+    font-size: 0.8rem;
+  }
+}
