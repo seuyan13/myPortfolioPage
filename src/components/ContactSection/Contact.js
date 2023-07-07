@@ -51,7 +51,6 @@ export default function Contact() {
                 </ul>
               </div>
               <div className={styles.column}>
-                <div></div>
                 <div style={{ overflow: "auto" }}>
                   <ul className={styles.iconList}>
                     <li className={styles.linkerList}>
