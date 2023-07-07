@@ -12,7 +12,7 @@ export const projectsData = [
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/BarcodeScannerApp/logo.png",
     title: "BarcodeScanner",
     group: "Team Project",
-    date: "date",
+    date: "July - Nov.2021",
     modalId: "modal1",
     slides: [
       {
@@ -51,7 +51,7 @@ export const projectsData = [
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/GalleryApp/main.jpg",
     title: "Gallery App",
     group: "Personal Project",
-    date: "date",
+    date: "July - Aug.2022",
     modalId: "modal2",
     slides: [
       {
@@ -88,7 +88,7 @@ export const projectsData = [
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/Portfolio/Portfolio.png",
     title: "Portfolio",
     group: "Personal Project",
-    date: "date",
+    date: "June - July.2023",
     modalId: "modal3",
     slides: [
       { url: process.env.PUBLIC_URL + "/ProjectImg/Portfolio/Portfolio.png" },
@@ -116,7 +116,7 @@ export const projectsData = [
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/TodoList/main.png",
     title: "Todo List",
     group: "Personal Project",
-    date: "date",
+    date: "Jan - Feb 2023",
     modalId: "modal4",
     slides: [
       { url: process.env.PUBLIC_URL + "/ProjectImg/TodoList/main.png" },
@@ -149,7 +149,7 @@ export const projectsData = [
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/NewsApp/main.png",
     title: "News App",
     group: "Personal Project",
-    date: "date",
+    date: "May.2023",
     modalId: "modal5",
     slides: [
       { url: process.env.PUBLIC_URL + "/ProjectImg/NewsApp/main.png" },
@@ -185,7 +185,7 @@ export const projectsData = [
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/NotePad/main.png",
     title: "NotePad",
     group: "Team Project",
-    date: "date",
+    date: "Aug.2022",
     modalId: "modal6",
     slides: [
       { url: process.env.PUBLIC_URL + "/ProjectImg/NotePad/fileMenu.png" },
