@@ -49,13 +49,17 @@
   text-align: center;
   color: #3d69cf;
   font-size: 2.5rem;
-  margin-right: 3rem;
+  margin-right: 3vw;
   display: block;
 }
 
 .linkerList {
   display: inline-block;
   float: right;
+}
+
+.column .iconList li {
+  font-size: 2vh;
 }
 
 .linkEmail {
