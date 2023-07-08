@@ -25,7 +25,7 @@ export default function Contact() {
                     <span className={styles.iconCircle}>
                       <GeoAlt />
                     </span>
-                    2 Regatta Road, Torbay, Auckland
+                    <span>2 Regatta Road, Torbay, Auckland</span>
                   </li>
                   <li>
                     <span className={styles.iconCircle}>

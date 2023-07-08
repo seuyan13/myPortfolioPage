@@ -37,10 +37,15 @@
   display: inline-block;
   line-height: 2rem;
   color: #0078ff;
-  margin: 1rem 2rem 1rem 2rem;
-  font-size: 1.5em;
+  margin: 1vw 2vw 1vw 0vw;
+  font-size: 1.5rem;
 }
 
+/*
+.iconList li {
+  font-size: 1.5vw;
+}
+*/
 .iconLinker {
   width: 4rem;
   height: 4rem;
@@ -56,10 +61,6 @@
 .linkerList {
   display: inline-block;
   float: right;
-}
-
-.column .iconList li {
-  font-size: 2vh;
 }
 
 .linkEmail {
@@ -121,14 +122,16 @@
     text-align: left;
   }
 
-  .column .linkerList {
-    float: none;
-  }
-
   .cvContainer {
     float: none;
     margin: 0;
     display: inline-block;
     width: 15rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  li span {
+    display: block;
   }
 }
