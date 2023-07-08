@@ -151,7 +151,7 @@ h3 {
 }
 
 /**/
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .modalContainer {
     padding: 0;
   }
@@ -166,6 +166,11 @@ h3 {
 
   .briefContainer {
     margin-top: 3rem;
+  }
+
+  .infoList {
+    margin-left: 0;
+    text-align: center;
   }
 
   .listBrief {

@@ -117,16 +117,14 @@
     text-align: left;
   }
 
+  .column .linkerList {
+    float: none;
+  }
+
   .cvContainer {
     float: none;
     margin: 0;
     display: inline-block;
     width: 15rem;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .iconList li {
-    font-size: 0.8rem;
   }
 }
