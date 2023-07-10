@@ -19,7 +19,7 @@ export default function Contact() {
           <div className={styles.contactBox}>
             <h2 className={styles.contactTitle}>Get in Touch</h2>
             <div className="row" style={{ display: "flex" }}>
-              <div className={styles.column}>
+              <div className={styles.column1}>
                 <ul className={styles.iconList}>
                   <li>
                     <span className={styles.iconCircle}>
@@ -50,7 +50,7 @@ export default function Contact() {
                   </li>
                 </ul>
               </div>
-              <div className={styles.column}>
+              <div className={styles.column2}>
                 <div style={{ overflow: "auto" }}>
                   <ul className={styles.iconList}>
                     <li className={styles.linkerList}>

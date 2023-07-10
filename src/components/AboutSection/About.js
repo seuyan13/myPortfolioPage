@@ -20,7 +20,7 @@ function About() {
           <div className={`row ${styles.row}`}>
             <div className={`${styles.profileImgContainer} col-sm-4`}>
               <img
-                src={process.env.PUBLIC_URL + "/img/background.jpeg"}
+                src={process.env.PUBLIC_URL + "/img/profile.jpg"}
                 alt="profilePhoto"
                 className={styles.profileImg}
               ></img>

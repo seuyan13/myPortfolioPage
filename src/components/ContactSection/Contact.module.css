@@ -23,7 +23,8 @@
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.column {
+.column1,
+.column2 {
   flex: 1;
 }
 
@@ -41,11 +42,6 @@
   font-size: 1.5rem;
 }
 
-/*
-.iconList li {
-  font-size: 1.5vw;
-}
-*/
 .iconLinker {
   width: 4rem;
   height: 4rem;
@@ -111,13 +107,20 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .column {
+  .column1,
+  .column2 {
     flex: none;
     text-align: center;
     position: relative;
   }
 
-  .column .iconList {
+  .iconCircle {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .iconList {
     display: inline-block;
     text-align: left;
   }
@@ -130,8 +133,14 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
-  li span {
-    display: block;
+@media only screen and (max-width: 480px) {
+  .column1 {
+    flex: none;
+    text-align: left;
+    position: relative;
+  }
+
+  .iconList li {
+    font-size: 0.8rem;
   }
 }
