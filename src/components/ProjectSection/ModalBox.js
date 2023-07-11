@@ -12,7 +12,6 @@ const ModalBox = ({ project }) => {
         <div className={styles.modalBody}>
           <div className={styles.slide}>
             <Slideshow slides={project.slides} />
-            {/*<div className={styles.slideText}>{project.text}</div>*/}
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@ const Slideshow = ({ slides }) => {
     backgroundRepeat: "no-repeat",
     backgroundSize: "contain",
     backgroundImage: `url(${slides[currentIndex].url})`,
+    transition: "1s",
   };
 
   const goToPrevious = () => {
