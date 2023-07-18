@@ -16,7 +16,7 @@ function Skill() {
   ];
 
   const languageSkills = [
-    { src: "/svg/cSharp.svg", alt: "c#" },
+    { src: "/svg/dotNetCore.png", alt: "dotNetCore" },
     { src: "/svg/java.svg", alt: "java" },
   ];
 
@@ -55,7 +55,7 @@ function Skill() {
           <div className="row-sm-12">
             <div className={styles.titleBox}>
               <h3 className={styles.title}>Skills</h3>
-              <p className={styles.subtitle}>Skills that I can do</p>
+              <p className={styles.subtitle}>Skills that I possess</p>
               <div className={styles.line} />
             </div>
           </div>

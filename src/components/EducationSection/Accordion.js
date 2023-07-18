@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Education.module.css";
 
-export default function Accordion({ label, title, listL, listR }) {
+export default function Accordion({ label, title, eduBrief, listL, listR }) {
   const [isActive, setIsActive] = useState(false);
   const handleAccordionClick = () => {
     setIsActive(!isActive);
@@ -15,6 +15,10 @@ export default function Accordion({ label, title, listL, listR }) {
       <div className={styles.label}>{label}</div>
       <div className={styles.content}>
         <h5 style={{ textAlign: "center" }}>{title}</h5>
+        <hr />
+        <p className={styles.eduBrief}>{eduBrief}</p>
+
+        <h5 style={{ textAlign: "center" }}>course</h5>
         <hr />
         <div className="row col-md-12">
           <div className={`${styles.eduContent} col-md-6`}>
