@@ -25,6 +25,7 @@ function Skill() {
   const versionControlSkills = [
     { src: "/svg/git.svg", alt: "git" },
     { src: "/svg/github.svg", alt: "github" },
+    { src: "/svg/docker.svg", alt: "docker" },
   ];
 
   const certificateSkills = [{ src: "/img/mta-js.png", alt: "mta-js" }];
