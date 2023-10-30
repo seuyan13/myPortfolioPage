@@ -4,6 +4,8 @@ import Works from "./Works";
 import {
   faCoffee,
   faHandHoldingHeart,
+  faBowlFood,
+  faLaptopCode,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkContainer() {
@@ -22,6 +24,20 @@ export default function WorkContainer() {
         <div className="row">
           <div className="col-md-12">
             <div className={styles.timeline}>
+              <Works
+                icon={faLaptopCode}
+                background="#e066ff"
+                title="MegaBliss - Intern (Front-end)"
+                date="Aug 2023 - Oct 2023"
+                text="Work as a front-end developer intern in Web and mobile application. Mainly used React, React Native"
+              />
+              <Works
+                icon={faBowlFood}
+                background="#ffff00"
+                title="St Pierre's Sushi"
+                date="July 2023 - Present"
+                text="Improved Team work skills with basic practical skills. For example, multi-task, time-management, also, responsibility."
+              />
               <Works
                 icon={faCoffee}
                 background="#ec5453"
