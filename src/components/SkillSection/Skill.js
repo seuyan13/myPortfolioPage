@@ -89,11 +89,12 @@ function Skill() {
                   images={versionControlSkills}
                   onClick={openFullScreenImage}
                 />
-                <SkillBox
+                {/*<SkillBox
                   title="Certificate"
                   images={certificateSkills}
                   onClick={openFullScreenImage}
                 />
+                */}
               </div>
             </div>
           </div>

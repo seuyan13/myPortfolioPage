@@ -28,20 +28,14 @@ export default function WorkContainer() {
                 icon={faLaptopCode}
                 background="#e066ff"
                 title="MegaBliss - Intern (Front-end)"
-                date="Aug 2023 - Oct 2023"
+                date="Aug 2023 - Dec 2023"
                 text="Work as a front-end developer intern in Web and mobile application. Mainly used React, React Native"
               />
+  
               <Works
-                icon={faBowlFood}
-                background="#ffff00"
-                title="St Pierre's Sushi"
-                date="July 2023 - Present"
-                text="Improved Team work skills with basic practical skills. For example, multi-task, time-management, also, responsibility."
-              />
-              <Works
-                icon={faCoffee}
+                icon={faLaptopCode}
                 background="#ec5453"
-                title="The Coffee Club - Front Of House"
+                title="Timber Smart - App Developer Intern"
                 date="2021 - 2022"
                 text="Better communication skills with customers and team members and learned how to deal with
                 customers. Also, learned multi-tasking skills."

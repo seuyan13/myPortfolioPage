@@ -7,6 +7,7 @@ function SkillBox({ title, images, onClick }) {
       <h4>{title}</h4>
       <hr />
       {images.map((image, index) => (
+        
         <div
           className={styles.imgBox}
           key={index}

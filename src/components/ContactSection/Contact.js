@@ -21,6 +21,7 @@ export default function Contact() {
             <div className="row" style={{ display: "flex" }}>
               <div className={styles.column1}>
                 <ul className={styles.iconList}>
+                  {/*
                   <li>
                     <span className={styles.iconCircle}>
                       <GeoAlt />
@@ -33,6 +34,7 @@ export default function Contact() {
                     </span>
                     027 - 221 - 8317
                   </li>
+                  */}
                   <li>
                     <span className={styles.iconCircle}>
                       <Envelope />
@@ -77,6 +79,7 @@ export default function Contact() {
                     </li>
                   </ul>
                 </div>
+                {/*
                 <div className={styles.cvContainer}>
                   <a
                     href={CV}
@@ -88,6 +91,7 @@ export default function Contact() {
                     Download CV
                   </a>
                 </div>
+                */}
               </div>
             </div>
           </div>
