@@ -2,10 +2,9 @@ import React from "react";
 import styles from "./WorkContainer.module.css";
 import Works from "./Works";
 import {
-  faCoffee,
   faHandHoldingHeart,
-  faBowlFood,
   faLaptopCode,
+  faMobile
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkContainer() {
@@ -33,7 +32,7 @@ export default function WorkContainer() {
               />
   
               <Works
-                icon={faLaptopCode}
+                icon={faMobile}
                 background="#ec5453"
                 title="Timber Smart - App Developer Intern"
                 date="2021 - 2022"
