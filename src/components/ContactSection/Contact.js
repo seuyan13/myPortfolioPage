@@ -1,15 +1,7 @@
-import React from "react";
 import styles from "./Contact.module.css";
 import { Link } from "react-router-dom";
-import CV from "../../CV.pdf";
 
-import {
-  GeoAlt,
-  Phone,
-  Envelope,
-  Linkedin,
-  Github,
-} from "react-bootstrap-icons";
+import { Envelope, Linkedin, Github } from "react-bootstrap-icons";
 
 export default function Contact() {
   return (
@@ -21,21 +13,7 @@ export default function Contact() {
             <div className="row" style={{ display: "flex" }}>
               <div className={styles.column1}>
                 <ul className={styles.iconList}>
-                  {/*
-                  <li>
-                    <span className={styles.iconCircle}>
-                      <GeoAlt />
-                    </span>
-                    <span>2 Regatta Road, Torbay, Auckland</span>
-                  </li>
-                  <li>
-                    <span className={styles.iconCircle}>
-                      <Phone />
-                    </span>
-                    027 - 221 - 8317
-                  </li>
-                  */}
-                  <li>
+                  <li style={{ listStyle: "none" }}>
                     <span className={styles.iconCircle}>
                       <Envelope />
                     </span>
@@ -79,19 +57,6 @@ export default function Contact() {
                     </li>
                   </ul>
                 </div>
-                {/*
-                <div className={styles.cvContainer}>
-                  <a
-                    href={CV}
-                    download="CV-SeungwoonYang"
-                    target="_blank"
-                    rel="noreferrer"
-                    className={styles.cv}
-                  >
-                    Download CV
-                  </a>
-                </div>
-                */}
               </div>
             </div>
           </div>

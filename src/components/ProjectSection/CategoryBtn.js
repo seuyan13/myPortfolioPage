@@ -17,9 +17,6 @@ export default function CategoryBtn({ onSelectCategory }) {
       <button id="btnReact" onClick={() => handleCategoryClick("react")}>
         React
       </button>
-      {/*<button id="btnCSharp" onClick={() => handleCategoryClick("cSharp")}>
-        C#
-      </button>*/}
     </div>
   );
 }
