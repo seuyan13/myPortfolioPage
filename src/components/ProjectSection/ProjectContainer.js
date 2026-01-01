@@ -23,7 +23,6 @@ function ProjectContainer() {
           <div className="col-sm-12">
             <div className={styles.titleBox}>
               <h3 className={styles.title}>Portfolio</h3>
-              <p className={styles.subtitle}>My Works and Projects</p>
               <div className={styles.line} />
             </div>
           </div>
@@ -37,7 +36,6 @@ function ProjectContainer() {
               imgSrc={project.imgSrc}
               title={<span className={styles.briefTitle}>{project.title}</span>}
               group={<span className={styles.briefGroup}>{project.group}</span>}
-              date={<span style={{ color: "#1E90FF" }}>{project.date}</span>}
               modalId={project.modalId}
             />
           ))}

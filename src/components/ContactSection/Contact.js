@@ -11,7 +11,7 @@ export default function Contact() {
           <div className={styles.contactBox}>
             <h2 className={styles.contactTitle}>Get in Touch</h2>
             <div className="row" style={{ display: "flex" }}>
-              <div className={styles.column1}>
+              <div className={styles.column}>
                 <ul className={styles.iconList}>
                   <li style={{ listStyle: "none" }}>
                     <span className={styles.iconCircle}>
@@ -20,43 +20,37 @@ export default function Contact() {
                     <Link
                       to="#"
                       onClick={(e) => {
-                        window.location.href = "mailto:yangswoon1203@gmail.com";
+                        window.location.href = "mailto:yangsw1203@naver.com";
                         e.preventDefault();
                       }}
                       className={styles.linkEmail}
                     >
-                      yangswoon1203@gmail.com
+                      yangsw1203@naver.com
+                    </Link>
+                  </li>
+                  <li className={styles.linkerList}>
+                    <Link
+                      to={
+                        "https://www.linkedin.com/in/seungwoon-yang-50b1981b4/"
+                      }
+                      target="_blank"
+                    >
+                      <span className={styles.iconLinker}>
+                        <Linkedin />
+                      </span>
+                    </Link>
+                  </li>
+                  <li className={styles.linkerList}>
+                    <Link to={"https://github.com/seuyan13"} target="_blank">
+                      <span
+                        className={styles.iconLinker}
+                        style={{ color: "black" }}
+                      >
+                        <Github />
+                      </span>
                     </Link>
                   </li>
                 </ul>
-              </div>
-              <div className={styles.column2}>
-                <div style={{ overflow: "auto" }}>
-                  <ul className={styles.iconList}>
-                    <li className={styles.linkerList}>
-                      <Link
-                        to={
-                          "https://www.linkedin.com/in/seungwoon-yang-50b1981b4/"
-                        }
-                        target="_blank"
-                      >
-                        <span className={styles.iconLinker}>
-                          <Linkedin />
-                        </span>
-                      </Link>
-                    </li>
-                    <li className={styles.linkerList}>
-                      <Link to={"https://github.com/seuyan13"} target="_blank">
-                        <span
-                          className={styles.iconLinker}
-                          style={{ color: "black" }}
-                        >
-                          <Github />
-                        </span>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
               </div>
             </div>
           </div>

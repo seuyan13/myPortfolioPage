@@ -47,12 +47,12 @@ const Navbar = () => {
   return (
     <header id="header" className="fixed-top" style={navbarStyle}>
       <nav id="navbar" className={styles.navbar}>
-        <h2 className={styles.logo} >Portfolio</h2>
+        <h2 className={styles.logo}>Portfolio</h2>
         <ul className={`${styles.navbar_ul} ${click ? styles.active : ""}`}>
           <li className={styles.navbar_li}>
             <Link
               to="/hero"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("hero")}
             >
@@ -62,7 +62,7 @@ const Navbar = () => {
           <li className={styles.navbar_li}>
             <Link
               to="/about"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("about")}
             >
@@ -72,7 +72,7 @@ const Navbar = () => {
           <li className={styles.navbar_li}>
             <Link
               to="/skill"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("skill")}
             >
@@ -82,7 +82,7 @@ const Navbar = () => {
           <li className={styles.navbar_li}>
             <Link
               to="/edu"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("edu")}
             >
@@ -92,7 +92,7 @@ const Navbar = () => {
           <li className={styles.navbar_li}>
             <Link
               to="/exprience"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("exprience")}
             >
@@ -102,7 +102,7 @@ const Navbar = () => {
           <li className={styles.navbar_li}>
             <Link
               to="/project"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("project")}
             >
@@ -112,7 +112,7 @@ const Navbar = () => {
           <li className={styles.navbar_li}>
             <Link
               to="/contact"
-              activeClassName="active"
+              activeclassname="active"
               className="nav-link"
               onClick={() => scrollToSection("contact")}
             >

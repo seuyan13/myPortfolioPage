@@ -26,17 +26,19 @@ function About() {
               ></img>
             </div>
             <div className="col-sm-8">
-              <p className={styles.lead}>
-                Hello, I am Seungwoon Yang who dreams developer that
-                continuously learning and improving.{" "}
-                <div style={{ marginTop: "1rem" }} />
-                My real passion for designing and developing useful software is
-                what drives me to pursue it. My strength is having a high level
-                of attention to detail about the task given and keeping a
-                commitment to completion. In addition, I constantly study to
-                become a better developer all the time. These qualities with
-                positive energy will greatly help me work with other
-                professional developers.
+              <p className={styles.lead} style={{ marginTop: "1rem" }}>
+                사용자 경험을 중심으로 UI를 구현하는 프론트엔드 개발자입니다.{" "}
+                <br /> <br />
+                HTML, CSS, JavaScript, React를 기반으로 웹 인터페이스를
+                구현하며, <br />
+                구조와 동작 원리를 이해하는 것을 중요하게 생각합니다. <br />
+                AI 도구를 적극 활용해 요구사항을 빠르게 구현하지만, <br />
+                생성된 코드를 이해하고 프로젝트에 맞게 수정·개선하며 사용합니다.
+                <br /> <br />팀 프로젝트에서 Git/GitHub를 활용한 협업 경험이
+                있으며,
+                <br />
+                지속적인 학습과 개선을 통해 더 나은 프론트엔드 개발자로
+                성장하고자 합니다.
               </p>
             </div>
           </div>

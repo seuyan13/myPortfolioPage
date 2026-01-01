@@ -19,14 +19,14 @@ function Education() {
             <div className={styles.timeline}>
               {[
                 {
-                  year: "2020",
-                  uni: "Waikato Institute of Technology",
-                  degree: "Diploma",
+                  year: "2021 - 2023",
+                  uni: "Massey University (New Zealand)",
+                  degree: "Computer Science 학사 (편입)",
                 },
                 {
-                  year: "2021 - 2023",
-                  uni: "Massey University",
-                  degree: "Bachelor",
+                  year: "2020",
+                  uni: "Waikato Institute of Technology (New Zealand)",
+                  degree: "Computer Science 디플로마",
                 },
               ].map((item, index) => (
                 <h3 key={index}>

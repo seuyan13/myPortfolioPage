@@ -1,18 +1,11 @@
-import { Github } from "react-bootstrap-icons";
-import { Link } from "react-router-dom";
-
-const GithubIcon = () => (
-  <Github style={{ color: "black", fontSize: "1.5rem" }} />
-);
-
 export const projectsData = [
   {
     id: "modal1",
-    category: "java",
+    category: "App",
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/BarcodeScannerApp/logo.png",
     title: "BarcodeScanner",
     group: "Team Project",
-    date: "July - Nov.2021",
+    date: "2021.7 - 2021.11",
     modalId: "modal1",
     slides: [
       {
@@ -25,33 +18,20 @@ export const projectsData = [
         url: process.env.PUBLIC_URL + "/ProjectImg/BarcodeScannerApp/scan.jpg",
       },
     ],
-    info: [
-      " Java",
-      " Android Studio",
-      " 4 people",
-      <Link
-        to="https://github.com/PhoneBarcodeScanner/BarcodeScanner"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-      </Link>,
-    ],
-
     brief: [
-      "It was a project by a TimberSmart and It was a programming project class.",
-      "it was first big project for both me and my team members and not familiar for online meeting during the Covid period.",
-      "However, we became more and more familiar with online meetings, checked each other's modifications and current progress every week, and successfully completed the project with an A+ at the end.",
-      "Through this project, I learned not only better mobile development skills, but also teamwork using Github, how to conduct meetings, and how to modify and supplement projects based on this.",
+      "TimberSmart에서 인턴 활동을 하면서 개발하던 프로젝트입니다.",
+      "자바와 안드로이드 스튜디오를 활용하여 안드로이드 기기에서 사용가능한 바코드 스캐너를 개발하였습니다.",
+      "단순히 바코드를 스캔하는것 뿐만 아니라 각각의 바코드를 스캔,저장,검색,공유기능 등을 통해 마트에서 사용 가능한 앱입니다.",
+      "4명으로 이루어진 팀에 참여하여 스캔&저장 기능의 개발을 담당 하였으며 성공적으로 프로젝트를 끝냈습니다.",
     ],
   },
   {
     id: "modal2",
-    category: "java",
+    category: "App",
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/GalleryApp/main.jpg",
     title: "Gallery App",
     group: "Personal Project",
-    date: "July - Aug.2022",
+    date: "2022.7 - 2022.8",
     modalId: "modal2",
     slides: [
       {
@@ -64,59 +44,32 @@ export const projectsData = [
         url: process.env.PUBLIC_URL + "/ProjectImg/GalleryApp/speedOptions.jpg",
       },
     ],
-    info: [
-      " Java",
-      " Android Studio",
-      " personal",
-      <Link
-        to="https://github.com/seuyan13/Gallery-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-      </Link>,
-    ],
     brief: [
-      " This project was started to improve my Android development skills while taking a mobile development class.",
-      "It made me to understand Android development technologies using Java one step further.",
-      "last assignment was developing any mobile app.  I submitted this project as the assignment, and got the good marks",
+      "웹개발을 공부하던 당시 실력 향상을 위해 만든 개인프로젝트입니다.",
+      "자바와 안드로이드 스튜디오를 이용하여 만든 안드로이드 기기에서 사용가능한 갤러리앱니다.",
+      "사진과 동영상중 원하는 파일만 보여주는 기능과 좋아하는 사진들만 따로 저장 후 보여주는 기능, 동영상의 재생 속도 조절 기능을 구현하였습니다.",
     ],
   },
   {
     id: "modal3",
-    category: "react",
+    category: "Web",
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/Portfolio/Portfolio.png",
     title: "Portfolio",
     group: "Personal Project",
-    date: "June - July.2023",
+    date: "",
     modalId: "modal3",
     slides: [
       { url: process.env.PUBLIC_URL + "/ProjectImg/Portfolio/Portfolio.png" },
     ],
-    info: [
-      " React",
-      " Visual Studio Code",
-      " personal",
-      <Link
-        to="https://github.com/PhoneBarcodeScanner/BarcodeScanner"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-      </Link>,
-    ],
-    brief: [
-      "Using React, I created a developer portfolio in the form of a web page.",
-      "As I worked, I learned how to efficiently manage and process multiple data and components.",
-    ],
+    brief: ["싱글 페이지 형식의 포트폴리오 사이트 프로젝트입니다."],
   },
   {
     id: "modal4",
-    category: "react",
+    category: "Web",
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/TodoList/main.png",
     title: "Todo List",
     group: "Personal Project",
-    date: "Jan - Feb 2023",
+    date: "2023.1 - 2023.2",
     modalId: "modal4",
     slides: [
       { url: process.env.PUBLIC_URL + "/ProjectImg/TodoList/main.png" },
@@ -125,27 +78,14 @@ export const projectsData = [
         url: process.env.PUBLIC_URL + "/ProjectImg/TodoList/selectFunction.png",
       },
     ],
-    info: [
-      " React",
-      " Visual Studio Code",
-      " personal",
-      <Link
-        to="https://github.com/seuyan13/todo-list"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-      </Link>,
-    ],
     brief: [
-      "This is the first React project that I started by learning React on my own.",
-      "I added some functions like pagenation, select all, delete  to the basic todo list app that I created through YouTube.",
-      "Through this project, I was able to learn various concepts about React.",
+      "처음 React를 공부하며 만들어본 Todo List입니다.",
+      "기본적인 입력 & 삭제 기능과 페이지네이션과 전체 선택 기능을 구현했습니다.",
     ],
   },
   {
     id: "modal5",
-    category: "react",
+    category: "Web",
     imgSrc: process.env.PUBLIC_URL + "/ProjectImg/NewsApp/main.png",
     title: "News App",
     group: "Personal Project",
@@ -160,56 +100,24 @@ export const projectsData = [
         url: process.env.PUBLIC_URL + "/ProjectImg/NewsApp/toggleMenu.png",
       },
     ],
-    info: [
-      " React",
-      " Visual Studio Code",
-      " personal",
-      <Link
-        to="https://github.com/seuyan13/newsApp"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-      </Link>,
-    ],
     brief: [
-      "It's my second personal React project.",
-      "While reading the news on the app, I came up with an idea and started it.",
-      "Through this project, I learned skills such as reading and processing APIs using React.",
-      "It was harder to implement the search box than I thought, but in the process, I learned the concept of implementing the search bar and was able to make it well. ",
+      "API 연동을 통해 만든 뉴스 앱입니다.",
+      "뉴스API를 활용하여 최신 뉴스들을 받아와 보여주며, 카테고리별 뉴스 조회, 페이지 네이션과 키워드 검색 기능을 구현하였습니다.",
     ],
   },
   {
     id: "modal6",
-    category: "java",
-    imgSrc: process.env.PUBLIC_URL + "/ProjectImg/NotePad/main.png",
-    title: "NotePad",
-    group: "Team Project",
-    date: "Aug.2022",
+    category: "Web",
+    imgSrc: process.env.PUBLIC_URL + "/ProjectImg/company/login.png",
+    title: "Web site",
+    group: "Personal Project",
+    date: "2024.10 ~",
     modalId: "modal6",
-    slides: [
-      { url: process.env.PUBLIC_URL + "/ProjectImg/NotePad/fileMenu.png" },
-      { url: process.env.PUBLIC_URL + "/ProjectImg/NotePad/editMenu.png" },
-      { url: process.env.PUBLIC_URL + "/ProjectImg/NotePad/saveAsPdf.png" },
-      { url: process.env.PUBLIC_URL + "/ProjectImg/NotePad/print.png" },
-    ],
-    info: [
-      " Java",
-      " Eclipse",
-      " 2",
-      <Link
-        to="https://github.com/seuyan13/Notepad"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubIcon />
-      </Link>,
-    ],
+    slides: [{ url: process.env.PUBLIC_URL + "/ProjectImg/company/login.png" }],
     brief: [
-      "It was the assignment of Software Design and Construction class.",
-      "I was not familiar with the use of Java, and there were many unfamiliar concepts, so it felt more difficult.",
-      "It was my first team task. I was in charge of implementing the functions of printing, saving as pdf, select all, copy and paste",
-      "I learned how to use libraries and tools such as PMD and XML as well as development skills using Java.",
+      "군복무 기간중에도 실력 향상을 위해 인프런을 통해 공부하며 진행하고 있는 프로젝트입니다.",
+      "React, Node.js와 MongoDB를 활용한 풀스택 웹사이트입니다.",
+      "프런트엔드 뿐 아니라 백엔드와 데이터베이스까지 다뤄보며 다방면의 이해도를 높였고 프론트엔드와 데이터베이스 간의 CRUD 기능을 이해하였습니다.",
     ],
   },
 ];

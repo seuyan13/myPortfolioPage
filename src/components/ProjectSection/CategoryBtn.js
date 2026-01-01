@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./CategoryBtn.module.css";
 
 export default function CategoryBtn({ onSelectCategory }) {
@@ -11,11 +10,11 @@ export default function CategoryBtn({ onSelectCategory }) {
       <button id="btnAll" onClick={() => handleCategoryClick("all")}>
         All
       </button>
-      <button id="btnJava" onClick={() => handleCategoryClick("java")}>
-        Java
+      <button id="btnJava" onClick={() => handleCategoryClick("App")}>
+        Application
       </button>
-      <button id="btnReact" onClick={() => handleCategoryClick("react")}>
-        React
+      <button id="btnReact" onClick={() => handleCategoryClick("Web")}>
+        Front-end
       </button>
     </div>
   );
