@@ -5,6 +5,7 @@ import {
   faHandHoldingHeart,
   faLaptopCode,
   faMobile,
+  faUsers,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkContainer() {
@@ -22,6 +23,13 @@ export default function WorkContainer() {
         <div className="row">
           <div className="col-md-12">
             <div className={styles.timeline}>
+              <Works
+                icon={faUsers}
+                background="#000000"
+                title="의무 복무"
+                date="2025.12"
+                text={<>대한민국 육군 만기 전역.</>}
+              />
               <Works
                 icon={faLaptopCode}
                 background="#e066ff"
