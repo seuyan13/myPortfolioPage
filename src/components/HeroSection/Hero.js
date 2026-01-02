@@ -28,8 +28,8 @@ function Hero() {
         <div className={styles.heroContent}>
           <div className={styles.centered}>
             <h1 className={styles.heroTitle}>
-              Hello! <br />
-              I'm Seungwoon Yang
+              안녕하세요! <br />
+              신입 개발자 양승운 입니다
               <p className={styles.subtitle}>
                 <span
                   className="typed"
