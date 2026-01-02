@@ -33,7 +33,6 @@ const ProjectBrief = ({ imgSrc, title, group, date, modalId }) => {
                 <h2 className={styles.PTitle}>{title}</h2>
                 <div className={styles.more}>
                   <span className={styles.group}>{group}</span>
-                  {/* <span className={styles.Date}>{date}</span> */}
                 </div>
               </div>
               <div className="col-sm-4">

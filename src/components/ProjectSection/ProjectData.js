@@ -108,12 +108,12 @@ export const projectsData = [
   {
     id: "modal6",
     category: "Web",
-    imgSrc: process.env.PUBLIC_URL + "/ProjectImg/company/login.png",
+    imgSrc: process.env.PUBLIC_URL + "/ProjectImg/Company/login.png",
     title: "Web site",
     group: "Personal Project",
     date: "2024.10 ~",
     modalId: "modal6",
-    slides: [{ url: process.env.PUBLIC_URL + "/ProjectImg/company/login.png" }],
+    slides: [{ url: process.env.PUBLIC_URL + "/ProjectImg/Company/login.png" }],
     brief: [
       "군복무 기간중에도 실력 향상을 위해 인프런을 통해 공부하며 진행하고 있는 프로젝트입니다.",
       "React, Node.js와 MongoDB를 활용한 풀스택 웹사이트입니다.",

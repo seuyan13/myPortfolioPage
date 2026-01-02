@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="container">
         <div className="row">
           <div className={styles.contactBox}>
-            <h2 className={styles.contactTitle}>Get in Touch</h2>
+            <h2 className={styles.contactTitle}>Contact</h2>
             <div className="row" style={{ display: "flex" }}>
               <div className={styles.column}>
                 <ul className={styles.iconList}>
