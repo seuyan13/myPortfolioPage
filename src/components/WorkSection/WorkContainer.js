@@ -49,7 +49,7 @@ export default function WorkContainer() {
                 icon={faMobile}
                 background="#ec5453"
                 title="Timber Smart - App Developer Intern"
-                date="2021 - 2022"
+                date="2021.07 - 2021.12"
                 text={
                   <>
                     졸업전 약 6개월 동안 안드로이드 앱 개발 인턴으로 근무하며
