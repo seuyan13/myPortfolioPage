@@ -13,6 +13,7 @@ function Skill() {
   const languageSkills = [
     { src: "/svg/CSharp.svg", alt: "CSharp" },
     { src: "/svg/java.svg", alt: "java" },
+    { src: "/svg/nodejs.svg", alt: "nodejs" },
   ];
 
   const databaseSkills = [{ src: "/svg/mongodb.svg", alt: "mongodb" }];
@@ -88,6 +89,11 @@ function Skill() {
               <p>데스크톱 UI 이벤트 처리 및 화면 구성 경험이 있습니다.</p>
               <li>Java (Android Studio)</li>
               <p>안드로이드 앱 UI 구성 및 이벤트 처리 경험이 있습니다.</p>
+              <li>Node.js</li>
+              <p>
+                Node.js와 Express.js를 활용하여 기본적인 서버를 구성하고 간단한
+                RESTful API를 구현할 수 있습니다.
+              </p>
             </ul>
           </div>
           <div>
