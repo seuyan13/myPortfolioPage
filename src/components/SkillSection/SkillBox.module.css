@@ -1,0 +1,49 @@
+.skillBox {
+  padding: 3rem 1.25rem;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 5px rgba(0, 0, 0, 0.2);
+  min-height: 320px;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.iconContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+/* Frontend 전용 grid */
+.frontendGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  justify-items: center;
+}
+
+.imgBox {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* 모바일 대응 */
+@media (max-width: 768px) {
+  .frontendGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,11 +1,7 @@
-body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
-}
-
+/* ---------- TITLE ---------- */
 .titleBox {
-  margin-bottom: 4rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .title {
@@ -14,39 +10,6 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
-
-.subtitle {
-  text-decoration: none;
-  color: #4e4e4e;
-}
-
-.skillsContainer {
-  padding: 3rem 1.25rem;
-  position: relative;
-  background-color: #f5f5f5;
-  margin-bottom: -2rem;
-  margin-top: -4%;
-}
-
-.skillBoxRow {
-  margin: 0em 1em 0em 1em;
-  text-align: center;
-}
-
-.skillBox {
-  padding: 3rem 1.25rem;
-  position: relative;
-  justify-content: center;
-  background-color: #fff;
-  margin-bottom: 3rem;
-  z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 25px;
-  height: auto;
-  max-width: 100%;
-  min-width: fit-content;
-}
-
 .line {
   width: 40px;
   height: 5px;
@@ -54,56 +17,120 @@ body {
   margin: 0 auto;
 }
 
-.imgBox {
-  width: 90px;
-  height: 90px;
-  position: relative;
-  border-radius: 45px;
+/* ---------- LAYOUT ---------- */
+.skillsContainer {
+  background-color: #f5f5f5;
   display: flex;
   justify-content: center;
+}
+
+.carousel {
+  display: flex;
   align-items: center;
-  background-color: #fff;
-  margin-bottom: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.imgBox img {
+  justify-content: center;
+  gap: 1.5rem;
   width: 100%;
-  height: auto;
-  transition: all 1s;
 }
 
-.containerSub {
-  margin: 0 9rem;
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 2.5rem;
 }
 
-@media (min-width: 768px) {
-  .containerSub {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+/* ---------- CARD ---------- */
+.card {
+  width: 320px;
+  transition: opacity 0.25s ease, filter 0.25s ease;
+}
+
+.active {
+  opacity: 1;
+  z-index: 3;
+}
+
+.side {
+  opacity: 0.35;
+  filter: blur(1px);
+  cursor: pointer;
 }
 
 .textbox {
-  padding: 3rem 1.25rem;
-  position: relative;
-  background-color: #fff;
-  margin-bottom: 3rem;
-  z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
-  margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem 1rem;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background-color: #fff;
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.textbox h4 {
-  text-align: center;
-  text-decoration: underline;
-  text-underline-offset: 6px;
-  text-decoration-thickness: 1.5px;
-  margin-bottom: 1.5rem;
+.textbox li {
+  list-style: none;
+  padding-left: 0;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* ---------- animation ---------- */
+@keyframes slideFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(80px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-80px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.active.right {
+  animation: slideFromRight 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.active.left {
+  animation: slideFromLeft 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ----------  ---------- */
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #555;
+}
+
+.arrow:hover {
+  opacity: 0.7;
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+  .cards {
+    gap: 0;
+  }
+
+  .side {
+    display: none;
+  }
+
+  .carousel {
+    gap: 0.5rem;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
 }

@@ -1,16 +1,25 @@
 import React from "react";
-import styles from "./Skill.module.css";
+import styles from "./SkillBox.module.css";
 
-function SkillBox({ title, images, onClick }) {
+function SkillBox({ title, images }) {
+  const isFrontend = title === "Frontend";
+
   return (
     <div className={styles.skillBox}>
-      <h4>{title}</h4>
+      <h4 className={styles.title}>{title}</h4>
       <hr />
-      {images.map((image, index) => (
-        <div className={styles.imgBox} key={index}>
-          <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
-        </div>
-      ))}
+
+      <div
+        className={`${styles.iconContainer} ${
+          isFrontend ? styles.frontendGrid : ""
+        }`}
+      >
+        {images.map((image, index) => (
+          <div key={index} className={styles.imgBox}>
+            <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
