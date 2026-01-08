@@ -27,8 +27,8 @@ function About() {
             </div>
             <div className="col-sm-8">
               <p className={styles.lead} style={{ marginTop: "1rem" }}>
-                사용자 경험을 중심으로 UI를 구현하는 프론트엔드 개발자입니다.{" "}
-                <br /> <br />
+                사용자 경험을 중심으로 UI를 구현하는 프론트엔드 개발자 / 웹
+                퍼블리셔 입니다. <br /> <br />
                 HTML, CSS, JavaScript, React를 기반으로 웹 인터페이스를
                 구현하며, <br />
                 구조와 동작 원리를 이해하는 것을 중요하게 생각합니다. <br />
@@ -37,8 +37,8 @@ function About() {
                 <br /> <br />팀 프로젝트에서 Git/GitHub를 활용한 협업 경험이
                 있으며,
                 <br />
-                지속적인 학습과 개선을 통해 더 나은 프론트엔드 개발자로
-                성장하고자 합니다.
+                지속적인 학습과 개선을 통해 퍼블리싱과 프론트엔드 양쪽 모두에서
+                성장 가능한 인재를 목표로 합니다.
               </p>
             </div>
           </div>
